@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Private production code
+bazar_fixed.py
+scraper_core.py
+production_scraper.py
+
+# Generated datasets
+*.csv
+*.xlsx
+*.xls
+
+# Keep public sample output
+!sample_reviews.xlsx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+~$*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
